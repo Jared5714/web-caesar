@@ -1,5 +1,5 @@
 from flask import Flask, request
-from caesar import *
+from caesar import encrypt
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
